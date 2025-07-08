@@ -1,3 +1,4 @@
+
 import { ChevronDown, User, Sparkles, Code, Zap } from 'lucide-react';
 
 const Hero = () => {
@@ -78,8 +79,12 @@ const Hero = () => {
               {/* Main Profile Circle with enhanced styling */}
               <div className="w-96 h-96 mx-auto bg-gradient-to-br from-blue-200 via-indigo-200 to-purple-200 rounded-full flex items-center justify-center shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2">
                 <div className="w-80 h-80 bg-gradient-to-br from-white to-gray-50 rounded-full flex items-center justify-center shadow-inner border border-white/50">
-                  <div className="w-72 h-72 bg-gradient-to-br from-gray-50 to-white rounded-full flex items-center justify-center">
-                    <User size={140} className="text-blue-400/80" />
+                  <div className="w-72 h-72 bg-gradient-to-br from-gray-50 to-white rounded-full flex items-center justify-center overflow-hidden">
+                    <img 
+                      src="https://i.postimg.cc/0Npqyt96/IMG-20231225-094212.jpg" 
+                      alt="Vinod's Profile Picture"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>
                 </div>
               </div>
