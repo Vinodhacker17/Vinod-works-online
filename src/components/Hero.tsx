@@ -1,4 +1,3 @@
-
 import { ChevronDown, User, Sparkles, Code, Zap } from 'lucide-react';
 
 const Hero = () => {
@@ -31,7 +30,7 @@ const Hero = () => {
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
                 Hi, I'm{' '}
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent block">
-                  Vinod N.
+                  Vinod
                 </span>
               </h1>
               
