@@ -1,12 +1,15 @@
-
 import { Award, GraduationCap, Target } from 'lucide-react';
 
 const About = () => {
   const certifications = [
     "Basics of Python",
-    "Python Foundation Certificate",
+    "Python Foundation Certificate", 
     "ChatGPT Complete Guide – Udemy",
-    "AIML For Geodata Analysis – ISRO"
+    "AIML For Geodata Analysis – ISRO",
+    "Introduction to Cybersecurity – Cisco Networking Academy",
+    "TCS iON Career Edge - Young Professional",
+    "Data Structures in JAVA – Coding Ninjas",
+    "Introduction to JAVA – Coding Ninjas"
   ];
 
   return (
