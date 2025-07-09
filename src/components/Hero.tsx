@@ -1,4 +1,5 @@
 
+
 import { ChevronDown, User, Sparkles, Code, Zap } from 'lucide-react';
 
 const Hero = () => {
@@ -81,7 +82,7 @@ const Hero = () => {
                 <div className="w-80 h-80 bg-gradient-to-br from-white to-gray-50 rounded-full flex items-center justify-center shadow-inner border border-white/50">
                   <div className="w-72 h-72 bg-gradient-to-br from-gray-50 to-white rounded-full flex items-center justify-center overflow-hidden">
                     <img 
-                      src="https://i.postimg.cc/0Npqyt96/IMG-20231225-094212.jpg" 
+                      src="https://i.postimg.cc/J4vny2CK/IMG-20231225-094212.jpg" 
                       alt="Vinod's Profile Picture"
                       className="w-full h-full object-cover rounded-full"
                     />
@@ -114,7 +115,6 @@ const Hero = () => {
                 <p className="text-xs text-gray-600 mt-1 font-medium">Web Developer</p>
               </div>
 
-              {/* New floating element */}
               <div className="absolute top-1/3 right-0 bg-white/90 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-xl animate-float border border-white/50 hover:shadow-2xl transition-all duration-300" style={{ animationDelay: '1.5s' }}>
                 <div className="flex items-center space-x-3">
                   <div className="w-4 h-4 bg-gradient-to-r from-indigo-400 to-indigo-600 rounded-full animate-pulse"></div>
@@ -145,3 +145,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
