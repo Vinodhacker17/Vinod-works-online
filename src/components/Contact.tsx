@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Instagram, Send } from 'lucide-react';
 import { toast } from 'sonner';
@@ -72,19 +73,19 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "#",
+      href: "https://github.com/Vinodhacker17",
       color: "hover:text-gray-900"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/vinod-n-102712219/",
       color: "hover:text-blue-600"
     },
     {
       icon: <Instagram className="w-5 h-5" />,
       label: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/vinod_hacker/?__pwa=1",
       color: "hover:text-pink-600"
     }
   ];
@@ -135,6 +136,8 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 transition-all duration-300 hover:bg-gray-200 ${social.color}`}
                     title={social.label}
                   >

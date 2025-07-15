@@ -5,17 +5,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github className="w-5 h-5" />,
-      href: "#",
+      href: "https://github.com/Vinodhacker17",
       label: "GitHub"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.linkedin.com/in/vinod-n-102712219/",
       label: "LinkedIn"
     },
     {
       icon: <Instagram className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.instagram.com/vinod_hacker/?__pwa=1",
       label: "Instagram"
     }
   ];
@@ -76,6 +76,8 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 transition-all duration-300"
                   title={social.label}
                 >
