@@ -44,6 +44,12 @@ const Projects = () => {
       role: "Cybersecurity Analyst + Data Visualization",
       description: "Dual role simulation combining security analysis with data visualization techniques.",
       color: "blue"
+    },
+    {
+      company: "Tata Group",
+      role: "Cybersecurity Analyst Job Simulation",
+      description: "Comprehensive cybersecurity simulation focusing on threat analysis and security protocols.",
+      color: "indigo"
     }
   ];
 
@@ -53,7 +59,8 @@ const Projects = () => {
       red: "from-red-500 to-red-600 shadow-red-200",
       green: "from-green-500 to-green-600 shadow-green-200",
       purple: "from-purple-500 to-purple-600 shadow-purple-200",
-      orange: "from-orange-500 to-orange-600 shadow-orange-200"
+      orange: "from-orange-500 to-orange-600 shadow-orange-200",
+      indigo: "from-indigo-500 to-indigo-600 shadow-indigo-200"
     };
     return colors[color as keyof typeof colors];
   };

@@ -9,7 +9,8 @@ const About = () => {
     "Introduction to Cybersecurity – Cisco Networking Academy",
     "TCS iON Career Edge - Young Professional",
     "Data Structures in JAVA – Coding Ninjas",
-    "Introduction to JAVA – Coding Ninjas"
+    "Introduction to JAVA – Coding Ninjas",
+    "Introduction to DevOps - Great Learning"
   ];
 
   return (
