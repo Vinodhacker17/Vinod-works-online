@@ -62,16 +62,6 @@ const Hero = () => {
                   <Sparkles size={18} className="ml-2 group-hover:animate-spin" />
                 </span>
               </button>
-              <a 
-                href="/resume.pdf"
-                download="Vinod_Resume.pdf"
-                className="group bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/25 transform hover:-translate-y-1 font-semibold text-lg"
-              >
-                <span className="flex items-center justify-center">
-                  Download Resume
-                  <User size={18} className="ml-2 group-hover:animate-bounce" />
-                </span>
-              </a>
               <button 
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                 className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-lg"
