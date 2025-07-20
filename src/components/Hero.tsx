@@ -1,4 +1,4 @@
-import { ChevronDown, User, Sparkles, Code, Zap } from 'lucide-react';
+import { ChevronDown, User, Sparkles, Code, Zap, Download } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -69,6 +69,16 @@ const Hero = () => {
                 View my work
                 <Code size={18} className="inline ml-2 group-hover:rotate-12 transition-transform duration-300" />
               </button>
+              <a 
+                href="/resume.pdf" 
+                download="Vinod_Resume.pdf"
+                className="group bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/25 transform hover:-translate-y-1 font-semibold text-lg"
+              >
+                <span className="flex items-center justify-center">
+                  Download Resume
+                  <Download size={18} className="ml-2 group-hover:animate-bounce" />
+                </span>
+              </a>
             </div>
           </div>
 
