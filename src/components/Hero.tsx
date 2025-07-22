@@ -90,7 +90,7 @@ const Hero = () => {
                 <div className="w-80 h-80 bg-gradient-to-br from-white to-gray-50 rounded-full flex items-center justify-center shadow-inner border border-white/50">
                   <div className="w-72 h-72 bg-gradient-to-br from-gray-50 to-white rounded-full flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/src/assets/profile-picture.jpg" 
+                      src="https://i.postimg.cc/YSbVHQ5b/profile.jpg" 
                       alt="Vinod's Profile Picture"
                       className="w-full h-full object-cover rounded-full"
                     />
