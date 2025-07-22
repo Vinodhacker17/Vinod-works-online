@@ -1,5 +1,5 @@
 
-import { Code, Palette, Laptop } from 'lucide-react';
+import { Code, Laptop, Smartphone, Database, TestTube, Cloud } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -11,18 +11,39 @@ const Services = () => {
       color: "blue"
     },
     {
-      icon: <Palette className="w-8 h-8" />,
-      title: "UI/UX Design",
-      description: "Clean, modern designs that provide excellent user experience and visual appeal.",
-      features: ["User-Centered Design", "Wireframing", "Prototyping", "Visual Design"],
+      icon: <Smartphone className="w-8 h-8" />,
+      title: "App Development",
+      description: "Native and cross-platform mobile applications with modern user interfaces and functionality.",
+      features: ["iOS & Android", "React Native", "Cross-Platform", "App Store Publishing"],
       color: "purple"
+    },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Database Design & Management",
+      description: "Efficient database architecture, optimization, and management for scalable applications.",
+      features: ["Database Design", "Performance Optimization", "Data Migration", "Backup Solutions"],
+      color: "green"
+    },
+    {
+      icon: <TestTube className="w-8 h-8" />,
+      title: "Software Testing & QA",
+      description: "Comprehensive testing strategies to ensure quality, reliability, and performance.",
+      features: ["Automated Testing", "Manual Testing", "Performance Testing", "Bug Tracking"],
+      color: "orange"
+    },
+    {
+      icon: <Cloud className="w-8 h-8" />,
+      title: "DevOps & Cloud Services",
+      description: "Cloud infrastructure setup, CI/CD pipelines, and deployment automation.",
+      features: ["AWS/Azure Setup", "CI/CD Pipelines", "Container Deployment", "Monitoring"],
+      color: "indigo"
     },
     {
       icon: <Laptop className="w-8 h-8" />,
       title: "Freelance Development",
       description: "Custom tech solutions for clients or startups with focus on quality and innovation.",
       features: ["Custom Solutions", "Scalable Architecture", "Code Quality", "Ongoing Support"],
-      color: "green"
+      color: "teal"
     }
   ];
 
@@ -30,7 +51,10 @@ const Services = () => {
     const colors = {
       blue: "from-blue-500 to-blue-600 shadow-blue-200 group-hover:shadow-blue-300",
       purple: "from-purple-500 to-purple-600 shadow-purple-200 group-hover:shadow-purple-300",
-      green: "from-green-500 to-green-600 shadow-green-200 group-hover:shadow-green-300"
+      green: "from-green-500 to-green-600 shadow-green-200 group-hover:shadow-green-300",
+      orange: "from-orange-500 to-orange-600 shadow-orange-200 group-hover:shadow-orange-300",
+      indigo: "from-indigo-500 to-indigo-600 shadow-indigo-200 group-hover:shadow-indigo-300",
+      teal: "from-teal-500 to-teal-600 shadow-teal-200 group-hover:shadow-teal-300"
     };
     return colors[color as keyof typeof colors];
   };
@@ -39,7 +63,10 @@ const Services = () => {
     const colors = {
       blue: "group-hover:border-blue-200",
       purple: "group-hover:border-purple-200",
-      green: "group-hover:border-green-200"
+      green: "group-hover:border-green-200",
+      orange: "group-hover:border-orange-200",
+      indigo: "group-hover:border-indigo-200",
+      teal: "group-hover:border-teal-200"
     };
     return colors[color as keyof typeof colors];
   };
