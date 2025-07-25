@@ -50,6 +50,12 @@ const Projects = () => {
       role: "Cybersecurity Analyst Job Simulation",
       description: "Comprehensive cybersecurity simulation focusing on threat analysis and security protocols.",
       color: "indigo"
+    },
+    {
+      company: "Walmart USA",
+      role: "Advanced Software Engineering Job Simulation",
+      description: "Forage simulation focusing on advanced software engineering practices. Credential ID: 48imgWdopLRTL6kCR (Jul 2025)",
+      color: "blue"
     }
   ];
 
